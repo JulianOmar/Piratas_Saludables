@@ -2,19 +2,19 @@ package piratas;
 
 public class Escorbuto extends PE
 {
-	public Escorbuto ()
+	public Escorbuto()
 	{
 		super(0, 2);
 	}
-	
+
 	@Override
-	public PE beberJugo() 
+	public PE beberJugo()
 	{
 		return new Saludable();
 	}
 
 	@Override
-	public PE beberGrog() 
+	public PE beberGrog()
 	{
 		return this;
 	}

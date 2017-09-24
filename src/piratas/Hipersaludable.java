@@ -2,13 +2,13 @@ package piratas;
 
 public class Hipersaludable extends PE
 {
-	public Hipersaludable ()
+	public Hipersaludable()
 	{
 		super(-2, 10);
 	}
-	
+
 	@Override
-	public PE beberJugo() 
+	public PE beberJugo()
 	{
 		return this;
 	}

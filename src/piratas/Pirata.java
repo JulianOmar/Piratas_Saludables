@@ -1,5 +1,12 @@
 package piratas;
 
+
+
+/**
+ * 
+ * Implementación de beber grog y jugo. Implementación de atacar.
+ *
+ */
 public class Pirata 
 {
 	private int puntos;
@@ -21,6 +28,11 @@ public class Pirata
 		this.estado = estado.beberJugo();
 	}
 	
+	
+	/**
+	 * 
+	 * @param rival Rival a ser atacado
+	 */
 	public void pirataAtaca(Pirata rival)
 	{
 		this.puntos = this.estado.atacar(rival);
